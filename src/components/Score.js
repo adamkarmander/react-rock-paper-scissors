@@ -1,9 +1,9 @@
-import '../Score.css';
+import '../index.css';
 
 function Score() {
     return (
       <div>
-          <h1>Score: 0-0 (You-Computer)</h1>
+          <h1 id="score">Score: 0-0 (You-Computer)</h1>
       </div>
     );
   }

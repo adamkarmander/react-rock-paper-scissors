@@ -3,3 +3,44 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+#App {
+    text-align: center;
+    color: black;
+}
+  
+#title {
+    font-size: 50px;
+    color: #00d8ff;
+}
+
+#score {
+    color: #222222;
+}
+
+#gameContainer {
+    margin-top: 70px;
+}
+
+.myButton {
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    transition-duration: 0.4s;
+    background-color: #d9d9d9;
+}
+
+.myButton:hover {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #00d8ff;
+    color: white;
+}
